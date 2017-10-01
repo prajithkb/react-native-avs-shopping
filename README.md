@@ -1,3 +1,4 @@
+# This repository is forked from https://github.com/ndbroadbent/react-native-web-webpack
 # React Native for Web - Example App
 
 This is a boilerplate React Native app with `react-native-web` installed and configured.
@@ -19,6 +20,9 @@ Coming soon:
 
 > Note: This boilerplate project only contains an example webpack configuration for React Native Web.
 > You should merge this into your favorite React Native starter project.
+
+## All platforms
+`npm install ` to install all the dependencies
 
 ## iOS and Android
 
