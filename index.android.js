@@ -5,6 +5,16 @@
  */
 
 import { AppRegistry } from 'react-native';
+import React, { Component } from 'react';
 import App from './app'
 
-AppRegistry.registerComponent('ExampleApp', () => App);
+
+export default class DisplayMessage extends Component {
+	render(){
+		return (
+			<App displayText='You are in Android'/>
+		);
+	}
+}
+
+AppRegistry.registerComponent('ExampleApp', () => DisplayMessage);
